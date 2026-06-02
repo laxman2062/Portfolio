@@ -71,7 +71,6 @@ const categories = ['All', 'Full Stack', 'AI/ML', 'Frontend', 'Mobile'];
 
 const Projects = () => {
   const [activeFilter, setActiveFilter] = useState('All');
-  const [hoveredId, setHoveredId] = useState(null);
 
   const filtered = activeFilter === 'All' ? projects : projects.filter(p => p.category === activeFilter);
   const featured = filtered.filter(p => p.featured);
@@ -107,8 +106,6 @@ const Projects = () => {
                 key={project.id}
                 className="project-card featured"
                 style={{ '--card-color': project.color }}
-                onMouseEnter={() => setHoveredId(project.id)}
-                onMouseLeave={() => setHoveredId(null)}
               >
                 <div className="card-glow" />
                 <div className="project-emoji">{project.emoji}</div>

@@ -26,7 +26,7 @@ const projects = [
   },
   {
     id: 3,
-    title: 'DesignStudio',
+    title: 'Portfolio',
     category: 'Frontend',
     description: 'Browser-based design tool with collaborative real-time editing, component library, and export to CSS/Tailwind. Built for design teams.',
     tech: ['React', 'Canvas API', 'WebSockets', 'TypeScript'],
@@ -35,36 +35,7 @@ const projects = [
     links: { live: '#', github: '#' },
     featured: true,
   },
-  {
-    id: 4,
-    title: 'Cryptex Dashboard',
-    category: 'Full Stack',
-    description: 'Cryptocurrency portfolio tracker with live price feeds, alerts, and P&L analysis. Connects to 8 major exchanges via API.',
-    tech: ['React', 'WebSocket', 'Express', 'Chart.js'],
-    color: '#34d399',
-    emoji: '📈',
-    links: { live: '#', github: '#' },
-  },
-  {
-    id: 5,
-    title: 'EcoTrack',
-    category: 'Mobile',
-    description: 'Carbon footprint tracker that analyzes spending habits and provides personalized sustainability recommendations.',
-    tech: ['React Native', 'Firebase', 'TensorFlow Lite'],
-    color: '#facc15',
-    emoji: '🌱',
-    links: { live: '#', github: '#' },
-  },
-  {
-    id: 6,
-    title: 'CodeReview Pro',
-    category: 'AI/ML',
-    description: 'AI-powered code review tool that detects bugs, suggests refactors, and enforces style guides via GitHub PR integration.',
-    tech: ['Python', 'GPT-4', 'GitHub API', 'FastAPI'],
-    color: '#fb923c',
-    emoji: '🔍',
-    links: { live: '#', github: '#' },
-  },
+  
 ];
 
 const categories = ['All', 'Full Stack', 'AI/ML', 'Frontend', 'Mobile'];

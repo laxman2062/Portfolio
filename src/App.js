@@ -9,6 +9,7 @@ import Experience from './pages/Experience';
 import Contact from './pages/Contact';
 import './App.css';
 
+
 const pages = { Home, About, Projects, Experience, Contact };
 
 function App() {
@@ -30,6 +31,10 @@ function App() {
           <PageComponent setActivePage={handleSetPage} />
         </main>
         <Footer setActivePage={handleSetPage} />
+        <About />
+        <Projects />
+        <Experience />
+        <Contact />
       </div>
     </ThemeProvider>
   );
